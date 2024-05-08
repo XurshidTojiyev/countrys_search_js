@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Search App</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Custom styles */
+    .container {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center mb-4" id="country_text_h1">Country Search App <button id="btn-toggle" class="btn btn-light"><img id="img_1" width="30" src="https://simpleicon.com/wp-content/uploads/light.svg" alt=""></button></h1>
+  <div class="input-group mb-3">
+    <input type="text" id="searchInput" class="form-control class_search" placeholder="Enter country name">
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+    </div>
+  </div>
+  <div id="searchResults" class="list-group">
+    <!-- Search results will be displayed here -->
+  </div>
+</div>
+<script src="./index.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
